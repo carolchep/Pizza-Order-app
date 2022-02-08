@@ -4,11 +4,9 @@ import PizzaCard from "./PizzaCard";
 const PizzaList = ({ pizzaList }) => {
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>THE BEST PIZZA IN TOWN</h1>
+      <h1 className={styles.title}>THE SWEETEST PIZZA IN TOWN</h1>
       <p className={styles.desc}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut blandit arcu
-        in pretium molestie. Interdum et malesuada fames acme. Lorem ipsum dolor
-        sit amet, consectetur adipiscing elit.
+        Leta Pizza makes sure you get your pizza in time and fresh.Enjoy with friends and  family and be on the lookout for our generous offers.
       </p>
       <div className={styles.wrapper}>
         {pizzaList.map((pizza) => (
